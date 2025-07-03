@@ -31,3 +31,10 @@ module.exports = mongoose.model('Campground', CampgroundSchema);
 Issue : Every time we visited / refreshed the browser
 a now 'id' will be saved in database. This can be fixed by 
 proper seeding.
+
+          * ==== In The 3rd Commit (Seeding Data) ===== *
+Created : 
+1. seeds/cities  2. seeds/index.js   3. seeds/seedsHelpers.js
+To seed the database we use : node seeds/index.js
+To check : yelp-camp> db.campgrounds.find().pretty()
+
